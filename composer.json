@@ -1,0 +1,27 @@
+{
+    "name": "beycan/response",
+    "version": "1.0.1",
+    "description": "A simple and useful class to return json response in PHP.",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+            "name": "Halil Beycan",
+            "email": "halilbeycan0@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/BeycanDeveloper/response/issues"
+    },
+    "homepage": "https://github.com/BeycanDeveloper/response",
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beycan\\" : "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
